@@ -63,15 +63,79 @@
 		2E05A76120F3CACA00A19FDE /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				2E05A77D20F3D41100A19FDE /* Controllers */,
+				2E05A77C20F3D3FF00A19FDE /* Views */,
+				2E05A77B20F3D3F800A19FDE /* Supporting Files */,
+				2E05A77A20F3D3F000A19FDE /* Storyboards */,
+				2E05A77920F3D3E800A19FDE /* Services */,
+				2E05A77820F3D3DB00A19FDE /* Models */,
+				2E05A77720F3D3D600A19FDE /* Helpers */,
+				2E05A77620F3D3BA00A19FDE /* Extensions */,
 				2E05A76220F3CACA00A19FDE /* AppDelegate.swift */,
 				2E05A76420F3CACB00A19FDE /* ViewController.swift */,
 				2E05A76620F3CACB00A19FDE /* Main.storyboard */,
 				2E05A76920F3CACE00A19FDE /* Assets.xcassets */,
 				2E05A76B20F3CACE00A19FDE /* LaunchScreen.storyboard */,
+			);
+			path = Makestagram;
+			sourceTree = "<group>";
+		};
+		2E05A77620F3D3BA00A19FDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E05A77720F3D3D600A19FDE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2E05A77820F3D3DB00A19FDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E05A77920F3D3E800A19FDE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2E05A77A20F3D3F000A19FDE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2E05A77B20F3D3F800A19FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				2E05A77420F3D02F00A19FDE /* GoogleService-Info.plist */,
 				2E05A76E20F3CACE00A19FDE /* Info.plist */,
 			);
-			path = Makestagram;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E05A77C20F3D3FF00A19FDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E05A77D20F3D41100A19FDE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		44D45B4B1F38E32801CA7369 /* Frameworks */ = {
@@ -377,7 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V78FR972C;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,7 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6V78FR972C;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
