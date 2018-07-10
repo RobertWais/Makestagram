@@ -10,9 +10,30 @@ import Foundation
 import FirebaseDatabase.FIRDataSnapshot
 
 
-private var _current: User?
 
-class User {
+
+class User: Codable {
+    
+    //STATIC
+    private static var _current: User?
+    
+    static var current: User {
+        guard let currentUser = _current else{
+            fatalError("Error we might be in trouble")
+        }
+        return currentUser
+    }
+    
+    static func setCurrent(_ user: User, writeToUserDefaults: Bool = false){
+        
+        if writeToUserDefaults {
+            if let data = try? JSONEncoder().encode(user){
+                UserDefaults.standard.set(data, forKey: Constants.UserDefaults.currentUser)
+            }
+        }
+        
+        _current = user
+    }
     
     //Properties
     let uid: String

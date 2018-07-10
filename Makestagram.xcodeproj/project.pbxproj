@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E05A76320F3CACA00A19FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A76220F3CACA00A19FDE /* AppDelegate.swift */; };
-		2E05A76520F3CACB00A19FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A76420F3CACB00A19FDE /* ViewController.swift */; };
 		2E05A76820F3CACB00A19FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E05A76620F3CACB00A19FDE /* Main.storyboard */; };
 		2E05A76A20F3CACE00A19FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E05A76920F3CACE00A19FDE /* Assets.xcassets */; };
 		2E05A76D20F3CACE00A19FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E05A76B20F3CACE00A19FDE /* LaunchScreen.storyboard */; };
@@ -18,6 +17,10 @@
 		2E05A78320F40F1200A19FDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78220F40F1200A19FDE /* User.swift */; };
 		2E05A78520F416C200A19FDE /* CreateUsernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78420F416C200A19FDE /* CreateUsernameVC.swift */; };
 		2E05A78720F425F200A19FDE /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78620F425F200A19FDE /* UserService.swift */; };
+		2E05A78920F51A9000A19FDE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78820F51A9000A19FDE /* Constants.swift */; };
+		2E05A78B20F51C6800A19FDE /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */; };
+		2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78C20F5298A00A19FDE /* HomeVC.swift */; };
+		2E05A78F20F5299A00A19FDE /* FindFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78E20F5299A00A19FDE /* FindFriends.swift */; };
 		43EF225F86F7BD0672492E5D /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +28,6 @@
 		261E018AAFF7DFEDB342C6A1 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		2E05A75F20F3CACA00A19FDE /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E05A76220F3CACA00A19FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E05A76420F3CACB00A19FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E05A76720F3CACB00A19FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E05A76920F3CACE00A19FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E05A76C20F3CACE00A19FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		2E05A78220F40F1200A19FDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2E05A78420F416C200A19FDE /* CreateUsernameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameVC.swift; sourceTree = "<group>"; };
 		2E05A78620F425F200A19FDE /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2E05A78820F51A9000A19FDE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		2E05A78C20F5298A00A19FDE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2E05A78E20F5299A00A19FDE /* FindFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriends.swift; sourceTree = "<group>"; };
 		71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2DD7E0FD180B42A4D9F04A /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +88,6 @@
 				2E05A77720F3D3D600A19FDE /* Helpers */,
 				2E05A77620F3D3BA00A19FDE /* Extensions */,
 				2E05A76220F3CACA00A19FDE /* AppDelegate.swift */,
-				2E05A76420F3CACB00A19FDE /* ViewController.swift */,
 				2E05A76920F3CACE00A19FDE /* Assets.xcassets */,
 				2E05A76B20F3CACE00A19FDE /* LaunchScreen.storyboard */,
 			);
@@ -92,6 +97,7 @@
 		2E05A77620F3D3BA00A19FDE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			children = (
 				2E05A77420F3D02F00A19FDE /* GoogleService-Info.plist */,
 				2E05A76E20F3CACE00A19FDE /* Info.plist */,
+				2E05A78820F51A9000A19FDE /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,6 +156,8 @@
 			children = (
 				2E05A78020F3D9E900A19FDE /* LoginVC.swift */,
 				2E05A78420F416C200A19FDE /* CreateUsernameVC.swift */,
+				2E05A78C20F5298A00A19FDE /* HomeVC.swift */,
+				2E05A78E20F5299A00A19FDE /* FindFriends.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -310,9 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E05A78520F416C200A19FDE /* CreateUsernameVC.swift in Sources */,
+				2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */,
 				2E05A78320F40F1200A19FDE /* User.swift in Sources */,
 				2E05A78720F425F200A19FDE /* UserService.swift in Sources */,
-				2E05A76520F3CACB00A19FDE /* ViewController.swift in Sources */,
+				2E05A78B20F51C6800A19FDE /* Storyboard+Utility.swift in Sources */,
+				2E05A78920F51A9000A19FDE /* Constants.swift in Sources */,
+				2E05A78F20F5299A00A19FDE /* FindFriends.swift in Sources */,
 				2E05A76320F3CACA00A19FDE /* AppDelegate.swift in Sources */,
 				2E05A78120F3D9E900A19FDE /* LoginVC.swift in Sources */,
 			);

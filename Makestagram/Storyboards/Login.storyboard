@@ -79,7 +79,7 @@
                     <navigationItem key="navigationItem" id="Gdi-N4-Zg8"/>
                     <connections>
                         <outlet property="registerBtn" destination="kTa-yd-MDa" id="kLE-IT-YFl"/>
-                        <segue destination="3cE-Bw-hmo" kind="show" identifier="createUsername" id="tcx-8f-RHY"/>
+                        <segue destination="3cE-Bw-hmo" kind="show" identifier="toCreateUsername" id="tcx-8f-RHY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DG7-jn-Hhf" userLabel="First Responder" sceneMemberID="firstResponder"/>
