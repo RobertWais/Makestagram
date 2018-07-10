@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Find Friends-->
         <scene sceneID="HLn-Uk-jMd">
             <objects>
                 <viewController id="C7s-Ac-TPb" customClass="FindFriends" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TXx-2c-eXf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="tab_profile_black" id="gju-Ao-Ymw">
+                    <tabBarItem key="tabBarItem" title="" image="tab_profile_black" id="gju-Ao-Ymw">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="562" y="434"/>
         </scene>
-        <!--Item-->
+        <!--HomeVC-->
         <scene sceneID="PX2-5k-IlX">
             <objects>
                 <viewController id="FiL-wl-1nS" customClass="HomeVC" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bN6-BA-Wtp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="tab_home_black" id="Vbs-yn-Lfe">
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="Vbs-yn-Lfe">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="562" y="-232"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="f4Y-Ek-0of">
             <objects>
-                <tabBarController id="cq8-xf-QjR" sceneMemberID="viewController">
+                <tabBarController id="cq8-xf-QjR" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BAE-L6-ezH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

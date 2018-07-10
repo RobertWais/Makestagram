@@ -21,6 +21,7 @@
 		2E05A78B20F51C6800A19FDE /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */; };
 		2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78C20F5298A00A19FDE /* HomeVC.swift */; };
 		2E05A78F20F5299A00A19FDE /* FindFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78E20F5299A00A19FDE /* FindFriends.swift */; };
+		2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B120F5542500F142C2 /* MainTabBarController.swift */; };
 		43EF225F86F7BD0672492E5D /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		2E05A78C20F5298A00A19FDE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2E05A78E20F5299A00A19FDE /* FindFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriends.swift; sourceTree = "<group>"; };
+		2E6A84B120F5542500F142C2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2DD7E0FD180B42A4D9F04A /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 				2E05A78420F416C200A19FDE /* CreateUsernameVC.swift */,
 				2E05A78C20F5298A00A19FDE /* HomeVC.swift */,
 				2E05A78E20F5299A00A19FDE /* FindFriends.swift */,
+				2E6A84B120F5542500F142C2 /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			files = (
 				2E05A78520F416C200A19FDE /* CreateUsernameVC.swift in Sources */,
 				2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */,
+				2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */,
 				2E05A78320F40F1200A19FDE /* User.swift in Sources */,
 				2E05A78720F425F200A19FDE /* UserService.swift in Sources */,
 				2E05A78B20F51C6800A19FDE /* Storyboard+Utility.swift in Sources */,
