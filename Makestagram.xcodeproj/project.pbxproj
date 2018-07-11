@@ -21,6 +21,9 @@
 		2E05A78B20F51C6800A19FDE /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */; };
 		2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78C20F5298A00A19FDE /* HomeVC.swift */; };
 		2E05A78F20F5299A00A19FDE /* FindFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E05A78E20F5299A00A19FDE /* FindFriends.swift */; };
+		2E12147220F664B5008DEBF0 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12147120F664B5008DEBF0 /* StorageService.swift */; };
+		2E12147420F66B6B008DEBF0 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12147320F66B6B008DEBF0 /* PostService.swift */; };
+		2E12147620F676EE008DEBF0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12147520F676EE008DEBF0 /* Post.swift */; };
 		2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B120F5542500F142C2 /* MainTabBarController.swift */; };
 		2E6A84B420F55CA500F142C2 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B320F55CA500F142C2 /* MGPhotoHelper.swift */; };
 		43EF225F86F7BD0672492E5D /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */; };
@@ -44,6 +47,9 @@
 		2E05A78A20F51C6800A19FDE /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		2E05A78C20F5298A00A19FDE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2E05A78E20F5299A00A19FDE /* FindFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriends.swift; sourceTree = "<group>"; };
+		2E12147120F664B5008DEBF0 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		2E12147320F66B6B008DEBF0 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		2E12147520F676EE008DEBF0 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2E6A84B120F5542500F142C2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2E6A84B320F55CA500F142C2 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				2E05A78220F40F1200A19FDE /* User.swift */,
+				2E12147520F676EE008DEBF0 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				2E05A78620F425F200A19FDE /* UserService.swift */,
+				2E12147120F664B5008DEBF0 /* StorageService.swift */,
+				2E12147320F66B6B008DEBF0 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -325,14 +334,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E05A78520F416C200A19FDE /* CreateUsernameVC.swift in Sources */,
+				2E12147220F664B5008DEBF0 /* StorageService.swift in Sources */,
 				2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */,
 				2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */,
 				2E05A78320F40F1200A19FDE /* User.swift in Sources */,
+				2E12147620F676EE008DEBF0 /* Post.swift in Sources */,
 				2E05A78720F425F200A19FDE /* UserService.swift in Sources */,
 				2E6A84B420F55CA500F142C2 /* MGPhotoHelper.swift in Sources */,
 				2E05A78B20F51C6800A19FDE /* Storyboard+Utility.swift in Sources */,
 				2E05A78920F51A9000A19FDE /* Constants.swift in Sources */,
 				2E05A78F20F5299A00A19FDE /* FindFriends.swift in Sources */,
+				2E12147420F66B6B008DEBF0 /* PostService.swift in Sources */,
 				2E05A76320F3CACA00A19FDE /* AppDelegate.swift in Sources */,
 				2E05A78120F3D9E900A19FDE /* LoginVC.swift in Sources */,
 			);
