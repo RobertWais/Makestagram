@@ -17,4 +17,10 @@ struct Constants {
     struct UserDefaults {
         static let currentUser = "currentUser"
     }
+    
+    struct CellIdentifiers {
+        static let  postImageCells = "PostImageCell"
+        static let  postHeaderCell = "PostHeaderCell"
+        static let  postActionCell = "PostActionCell"
+    }
 }

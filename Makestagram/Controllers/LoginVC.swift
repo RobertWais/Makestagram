@@ -8,8 +8,8 @@
 
 import UIKit
 import FirebaseAuth
-import FirebaseAuthUI
 import Firebase
+import FirebaseUI
 
 typealias FIRUser = FirebaseAuth.User
 class LoginVC: UIViewController {
