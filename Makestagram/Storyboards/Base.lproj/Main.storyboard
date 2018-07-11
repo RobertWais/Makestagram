@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TXx-2c-eXf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_profile_black" id="gju-Ao-Ymw">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_plus_black" id="gju-Ao-Ymw">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -38,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bN6-BA-Wtp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="Vbs-yn-Lfe">
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tab_find_friends_black" id="Vbs-yn-Lfe">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -56,7 +56,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VfM-1b-Olg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="h6f-k1-YYu">
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="h6f-k1-YYu">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -85,8 +85,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tab_find_friends_black" width="25" height="25"/>
         <image name="tab_home_black" width="25" height="25"/>
         <image name="tab_plus_black" width="25" height="25"/>
-        <image name="tab_profile_black" width="25" height="25"/>
     </resources>
 </document>
