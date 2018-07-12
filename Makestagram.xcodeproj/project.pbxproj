@@ -30,6 +30,7 @@
 		2E12148020F6B5C7008DEBF0 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12147F20F6B5C7008DEBF0 /* PostImageCell.swift */; };
 		2E12148220F6BC78008DEBF0 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148120F6BC78008DEBF0 /* PostHeaderCell.swift */; };
 		2E12148420F6BF89008DEBF0 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148320F6BF89008DEBF0 /* PostActionCell.swift */; };
+		2E12148620F72105008DEBF0 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148520F72105008DEBF0 /* LikeService.swift */; };
 		2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B120F5542500F142C2 /* MainTabBarController.swift */; };
 		2E6A84B420F55CA500F142C2 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B320F55CA500F142C2 /* MGPhotoHelper.swift */; };
 		43EF225F86F7BD0672492E5D /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */; };
@@ -62,6 +63,7 @@
 		2E12147F20F6B5C7008DEBF0 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		2E12148120F6BC78008DEBF0 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		2E12148320F6BF89008DEBF0 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		2E12148520F72105008DEBF0 /* LikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
 		2E6A84B120F5542500F142C2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2E6A84B320F55CA500F142C2 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,7 @@
 				2E05A78620F425F200A19FDE /* UserService.swift */,
 				2E12147120F664B5008DEBF0 /* StorageService.swift */,
 				2E12147320F66B6B008DEBF0 /* PostService.swift */,
+				2E12148520F72105008DEBF0 /* LikeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */,
 				2E05A78320F40F1200A19FDE /* User.swift in Sources */,
 				2E12148420F6BF89008DEBF0 /* PostActionCell.swift in Sources */,
+				2E12148620F72105008DEBF0 /* LikeService.swift in Sources */,
 				2E12147620F676EE008DEBF0 /* Post.swift in Sources */,
 				2E12148020F6B5C7008DEBF0 /* PostImageCell.swift in Sources */,
 				2E12147820F67AEA008DEBF0 /* UIImage+Size.swift in Sources */,

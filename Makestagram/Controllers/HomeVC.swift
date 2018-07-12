@@ -78,6 +78,7 @@ extension HomeVC: UITableViewDataSource {
             return cell
         case 2:
             let cell = tableView.dequeueReusableCell(withIdentifier: Constants.CellIdentifiers.postActionCell, for: indexPath) as! PostActionCell
+            cell.likesLbl.text = "\(post.likeCount) likes"
             cell.timeLbl.text = timestampFormatter.string(from: post.creationDate)
             return cell
         default:

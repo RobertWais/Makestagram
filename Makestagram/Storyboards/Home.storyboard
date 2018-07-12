@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--HomeVC-->
+        <!--Makestagram-->
         <scene sceneID="8aI-xE-g6V">
             <objects>
                 <viewController id="c7z-9q-H4T" customClass="HomeVC" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -148,7 +148,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VfM-1b-Olg"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xef-ce-Ooc"/>
+                    <navigationItem key="navigationItem" title="Makestagram" id="xef-ce-Ooc"/>
                     <connections>
                         <outlet property="tableView" destination="vcp-q8-mdJ" id="rdM-oX-rPo"/>
                     </connections>

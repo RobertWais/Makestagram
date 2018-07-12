@@ -34,7 +34,6 @@ struct PostService {
         let dict = post.dictValue
         
         let postRef = Database.database().reference().child("posts").child(currentUser.uid).childByAutoId()
-        
         postRef.updateChildValues(dict)
     }
 }
