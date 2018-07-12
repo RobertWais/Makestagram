@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/robertwais/Documents/MakeSchool/Makestagram/Makestagram/Storyboards/FindFriends.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:/Users/robertwais/Documents/MakeSchool/Makestagram/Makestagram/Storyboards/Home.storyboard">
    </FileRef>
    <FileRef

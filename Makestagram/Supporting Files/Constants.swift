@@ -22,5 +22,6 @@ struct Constants {
         static let  postImageCells = "PostImageCell"
         static let  postHeaderCell = "PostHeaderCell"
         static let  postActionCell = "PostActionCell"
+        static let findFriendsCell = "FindFriendsCell"
     }
 }

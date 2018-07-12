@@ -16,6 +16,7 @@ class User: Codable {
     
     //STATIC
     private static var _current: User?
+    var isFollowed = false
     
     static var current: User {
         guard let currentUser = _current else{

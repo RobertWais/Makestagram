@@ -31,6 +31,10 @@
 		2E12148220F6BC78008DEBF0 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148120F6BC78008DEBF0 /* PostHeaderCell.swift */; };
 		2E12148420F6BF89008DEBF0 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148320F6BF89008DEBF0 /* PostActionCell.swift */; };
 		2E12148620F72105008DEBF0 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148520F72105008DEBF0 /* LikeService.swift */; };
+		2E12148B20F7CC46008DEBF0 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148A20F7CC46008DEBF0 /* FollowService.swift */; };
+		2E12148D20F7EE3F008DEBF0 /* FindFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148C20F7EE3E008DEBF0 /* FindFriendsVC.swift */; };
+		2E12148F20F7F094008DEBF0 /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12148E20F7F094008DEBF0 /* FindFriendsCell.swift */; };
+		2E12149120F8021D008DEBF0 /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E12149020F7F0A0008DEBF0 /* FindFriends.storyboard */; };
 		2E6A84B220F5542500F142C2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B120F5542500F142C2 /* MainTabBarController.swift */; };
 		2E6A84B420F55CA500F142C2 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A84B320F55CA500F142C2 /* MGPhotoHelper.swift */; };
 		43EF225F86F7BD0672492E5D /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */; };
@@ -64,6 +68,10 @@
 		2E12148120F6BC78008DEBF0 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		2E12148320F6BF89008DEBF0 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		2E12148520F72105008DEBF0 /* LikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
+		2E12148A20F7CC46008DEBF0 /* FollowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
+		2E12148C20F7EE3E008DEBF0 /* FindFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsVC.swift; sourceTree = "<group>"; };
+		2E12148E20F7F094008DEBF0 /* FindFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		2E12149020F7F0A0008DEBF0 /* FindFriends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = FindFriends.storyboard; path = /Users/robertwais/Documents/MakeSchool/Makestagram/Makestagram/Storyboards/FindFriends.storyboard; sourceTree = "<absolute>"; };
 		2E6A84B120F5542500F142C2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2E6A84B320F55CA500F142C2 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		71F751461B64AB01E63385F9 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +160,7 @@
 				2E12147120F664B5008DEBF0 /* StorageService.swift */,
 				2E12147320F66B6B008DEBF0 /* PostService.swift */,
 				2E12148520F72105008DEBF0 /* LikeService.swift */,
+				2E12148A20F7CC46008DEBF0 /* FollowService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 		2E05A77A20F3D3F000A19FDE /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				2E12149020F7F0A0008DEBF0 /* FindFriends.storyboard */,
 				2E05A77E20F3D79900A19FDE /* Login.storyboard */,
 				2E05A76620F3CACB00A19FDE /* Main.storyboard */,
 				2E12147B20F69A24008DEBF0 /* Home.storyboard */,
@@ -182,6 +192,7 @@
 				2E12147F20F6B5C7008DEBF0 /* PostImageCell.swift */,
 				2E12148120F6BC78008DEBF0 /* PostHeaderCell.swift */,
 				2E12148320F6BF89008DEBF0 /* PostActionCell.swift */,
+				2E12148E20F7F094008DEBF0 /* FindFriendsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +205,7 @@
 				2E05A78C20F5298A00A19FDE /* HomeVC.swift */,
 				2E05A78E20F5299A00A19FDE /* FindFriends.swift */,
 				2E6A84B120F5542500F142C2 /* MainTabBarController.swift */,
+				2E12148C20F7EE3E008DEBF0 /* FindFriendsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -279,6 +291,7 @@
 				2E05A76D20F3CACE00A19FDE /* LaunchScreen.storyboard in Resources */,
 				2E05A77520F3D03000A19FDE /* GoogleService-Info.plist in Resources */,
 				2E05A76A20F3CACE00A19FDE /* Assets.xcassets in Resources */,
+				2E12149120F8021D008DEBF0 /* FindFriends.storyboard in Resources */,
 				2E12147C20F6B19A008DEBF0 /* Home.storyboard in Resources */,
 				2E05A77F20F3D79900A19FDE /* Login.storyboard in Resources */,
 				2E05A76820F3CACB00A19FDE /* Main.storyboard in Resources */,
@@ -357,6 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E12148B20F7CC46008DEBF0 /* FollowService.swift in Sources */,
+				2E12148D20F7EE3F008DEBF0 /* FindFriendsVC.swift in Sources */,
 				2E05A78520F416C200A19FDE /* CreateUsernameVC.swift in Sources */,
 				2E12147220F664B5008DEBF0 /* StorageService.swift in Sources */,
 				2E05A78D20F5298A00A19FDE /* HomeVC.swift in Sources */,
@@ -365,6 +380,7 @@
 				2E12148420F6BF89008DEBF0 /* PostActionCell.swift in Sources */,
 				2E12148620F72105008DEBF0 /* LikeService.swift in Sources */,
 				2E12147620F676EE008DEBF0 /* Post.swift in Sources */,
+				2E12148F20F7F094008DEBF0 /* FindFriendsCell.swift in Sources */,
 				2E12148020F6B5C7008DEBF0 /* PostImageCell.swift in Sources */,
 				2E12147820F67AEA008DEBF0 /* UIImage+Size.swift in Sources */,
 				2E05A78720F425F200A19FDE /* UserService.swift in Sources */,

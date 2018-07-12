@@ -70,10 +70,37 @@ struct UserService {
             dispatchGroup.notify(queue: .main, execute: {
                 completion(posts)
             })
-            
-            
         }
     }
-    
+    static func usersExcludingCurrentUser(completion: @escaping ([User])-> ()){
+        let currentUser = User.current
+        let ref = Database.database().reference().child("users")
+        
+        ref.observeSingleEvent(of: .value) { (snapshot) in
+            guard let snapshot = snapshot.children.allObjects as? [DataSnapshot]
+                else {return completion([]) }
+            
+            //Get all the users that your following, $0.id said return the ones that are the same id
+            //as current uid
+            let users = snapshot.compactMap(User.init).filter{$0.uid != currentUser.uid}
+            
+            let dispatchGroup = DispatchGroup()
+                users.forEach{ (user) in
+                    dispatchGroup.enter()
+                    
+                    
+                    //Check the users follows these other users
+                    FollowService.isUserFollowed(user, byCurrentUserWithCompletion: { (isFollowed) in
+                        user.isFollowed = isFollowed
+                        dispatchGroup.leave()
+                    })
+                }
+            
+            //return all of users that are followed or not followed
+            dispatchGroup.notify(queue: .main, execute: {
+                completion(users)
+            })
+        }
+    }
 }
 
