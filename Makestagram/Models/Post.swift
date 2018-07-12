@@ -29,11 +29,13 @@ class Post {
     
     var dictValue: [String: Any] {
         let createdAgo = creationDate.timeIntervalSince1970
+        let userDict = ["uid" : poster.uid,
+                        "username" : poster.username]
         return ["image_url" : imageURL,
                 "image_height" : imageHeight,
                 "created_at" : createdAgo,
                 "like_count" : likeCount,
-                "poster" : poster]
+                "poster" : userDict]
     }
     
     init?(snapshot: DataSnapshot){

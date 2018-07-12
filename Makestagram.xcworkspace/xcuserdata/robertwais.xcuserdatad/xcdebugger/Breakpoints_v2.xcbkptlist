@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Makestagram/Controllers/MainTabBarController.swift"
-            timestampString = "553031689.4534611"
+            filePath = "Makestagram/Services/UserService.swift"
+            timestampString = "553108908.500214"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "posts(for:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

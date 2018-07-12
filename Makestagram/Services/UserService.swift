@@ -48,13 +48,32 @@ struct UserService {
             guard let snapshot = snapshot.children.allObjects as? [DataSnapshot] else {
                 return completion([])
             }
+            let dispatchGroup = DispatchGroup()
             
+           
             //return failable because if data doesnt come through dont grab it
-            let posts = snapshot.reversed().compactMap(Post.init)
-            completion(posts)
+            let posts: [Post] = snapshot.reversed().compactMap {
+                guard let post = Post(snapshot: $0)
+                    else { return nil }
+                
+                dispatchGroup.enter()
+                
+                LikeService.isPostLiked(post) { (isLiked) in
+                    post.isLiked = isLiked
+                    
+                   dispatchGroup.leave()
+                }
+                
+                return post
+            }
+            
+            dispatchGroup.notify(queue: .main, execute: {
+                completion(posts)
+            })
+            
+            
         }
     }
     
 }
-
 

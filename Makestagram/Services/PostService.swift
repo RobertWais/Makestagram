@@ -31,9 +31,10 @@ struct PostService {
         //
         let currentUser = User.current
         let post = Post(imageURL: urlString, imageHeight: aspectHeight)
-        let dict = post.dictValue
+        let dict = post.dictValue 
         
         let postRef = Database.database().reference().child("posts").child(currentUser.uid).childByAutoId()
         postRef.updateChildValues(dict)
+        //postRef.updateChildValues(dict)
     }
 }

@@ -12,6 +12,16 @@ import FirebaseDatabase
 
 struct LikeService {
     
+    
+    
+    static func setIsLiked(_ isLiked: Bool, for post: Post, success: @escaping (Bool)->()){
+        if isLiked{
+            create(for: post, success: success)
+        }else{
+            delete(for: post, success: success)
+        }
+        
+    }
     static func create(for post: Post, success: @escaping (Bool)->Void){
         guard let key = post.key else {
             return success(false)
@@ -65,7 +75,19 @@ struct LikeService {
         }
     }
     
-    static func isPostLiked(_ post: Post){
+    static func isPostLiked(_ post: Post, byCurrentUserWithCompletion completion: @escaping (Bool)->()){
+        guard let postKey = post.key else {
+            assertionFailure("Error in Post liked: Must have akey")
+            return completion(false)
+        }
         
+        let likesRef = Database.database().reference().child("postLikes").child(postKey)
+        likesRef.queryEqual(toValue: nil, childKey: User.current.uid).observeSingleEvent(of: .value) { (snapshot) in
+            if let _ = snapshot.value as? [String: Any]{
+               return completion(true)
+            }else{
+                return completion(false)
+            }
+        }
     }
 }

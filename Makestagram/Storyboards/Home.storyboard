@@ -91,6 +91,10 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2WJ-Oh-Yod">
                                                     <rect key="frame" x="2" y="0.0" width="24" height="45.5"/>
                                                     <state key="normal" image="btn_heart_black_outline"/>
+                                                    <state key="selected" image="btn_heart_red_solid"/>
+                                                    <connections>
+                                                        <action selector="likesButtonTapped:" destination="GWK-7K-sWt" eventType="touchUpInside" id="BFp-ya-seG"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yB-G0-nS1">
                                                     <rect key="frame" x="36" y="11" width="46" height="24"/>
@@ -128,6 +132,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="likeBtn" destination="2WJ-Oh-Yod" id="C3W-VQ-GVi"/>
                                             <outlet property="likesLbl" destination="3yB-G0-nS1" id="aaN-th-CWF"/>
                                             <outlet property="timeLbl" destination="wZp-Rm-BGn" id="kV1-vH-Afa"/>
                                         </connections>
@@ -182,6 +187,7 @@
     </scenes>
     <resources>
         <image name="btn_heart_black_outline" width="24" height="24"/>
+        <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
